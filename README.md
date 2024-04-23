@@ -4,54 +4,61 @@ Tracks Nostr clients on how well localized they are in different languages.
 
 The list of languages and clients are not exhaustive. For a full list of ISO-639-1 languages, see [LANGUAGES.md](LANGUAGES.md).
 
-The percentage of localized strings is not tracked. Go to each [translation project](#project-links) to see their translation status.
+Go to each [translation project](#project-links) to see their translation status.
 
 The quality of translations are not tracked.
 
 ## Localized Nostr Clients
 
+The language must be accessible in the client for it to be deemed at least partially localized.
+It is not sufficient to have the strings be localized but the client does not use them.
+
+✅ = Fully translated. 95%+ translated in at least one locale for the language.
+🌙 = Partially translated. 6-94% translated in at least one locale for the language.
+❌ = Not translated. 0-5% translated in at least one locale for the language.
+
 | ISO-639-1 | ISO Language Name(s)                | Amethyst | Coracle | Damus | Habla | Nos  | noStrudel | Nostur | Primal | Snort | Yaki Honne |
 |-----------|-------------------------------------|----------|---------|-------|-------|------|-----------|--------|--------|-------|------------|
-| af        | Afrikaans                           | ❌       | ❌     | ❌    |  ✅   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| ar        | Arabic                              | ✅       | ❌     | ✅    |  ✅   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| bg        | Bulgarian                           | ❌       | ❌     | ✅    |  ✅   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| bn        | Bengali                             | ❌       | ❌     | ❌    |  ✅   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| ca        | Catalan; Valencian                  | ❌       | ❌     | ❌    |  ❌   | ✅   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| cs        | Czech                               | ✅       | ❌     | ✅    |  ❌   | ✅   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| da        | Danish                              | ❌       | ❌     | ❌    |  ❌   | ✅   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| af        | Afrikaans                           | ❌       | ❌     | ❌    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| ar        | Arabic                              | 🌙       | ❌     | 🌙    |  ❌   | 🌙   | ❌       | ❌     | ❌     | 🌙    | ❌        |
+| bg        | Bulgarian                           | ❌       | ❌     | 🌙    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| bn        | Bengali                             | 🌙       | ❌     | ❌    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| ca        | Catalan; Valencian                  | ❌       | ❌     | ❌    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| cs        | Czech                               | ✅       | ❌     | ✅    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| da        | Danish                              | ❌       | ❌     | ❌    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
 | de        | German                              | ✅       | ❌     | ✅    |  ✅   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| el        | Greek, Modern (1453–)               | ❌       | ❌     | ✅    |  ❌   | ✅   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| en        | English                             | ✅       | ✅     | ❌    |  ✅   | ✅   | ✅       | ✅     | ✅     | ✅    | ✅        |
-| eo        | Esperanto                           | ✅       | ❌     | ❌    |  ✅   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| es        | Spanish; Castilian                  | ✅       | ❌     | ✅    |  ✅   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| fa        | Persian                             | ✅       | ❌     | ✅    |  ✅   | ❌   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| fi        | Finnish                             | ❌       | ❌     | ❌    |  ❌   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| fr        | French                              | ✅       | ❌     | ✅    |  ✅   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| he        | Hebrew                              | ❌       | ❌     | ❌    |  ✅   | ✅   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| hi        | Hindi                               | ❌       | ❌     | ❌    |  ❌   | ✅   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| hr        | Croatian                            | ❌       | ❌     | ❌    |  ✅   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| hu        | Hungarian                           | ✅       | ❌     | ✅    |  ❌   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| id        | Indonesian                          | ✅       | ❌     | ✅    |  ❌   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| it        | Italian                             | ✅       | ❌     | ✅    |  ✅   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| ja        | Japanese                            | ❌       | ❌     | ✅    |  ✅   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| ko        | Korean                              | ❌       | ❌     | ✅    |  ✅   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| lv        | Latvian                             | ❌       | ❌     | ✅    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| ms        | Malay                               | ❌       | ❌     | ❌    |  ❌   | ✅   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| nb        | Bokmål, Norwegian; Norwegian Bokmål | ❌       | ❌     | ❌    |  ❌   | ✅   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| nl        | Dutch; Flemish                      | ✅       | ❌     | ✅    |  ✅   | ✅   | ❌       | ✅     | ❌     | ✅    | ❌        |
-| pl        | Polish                              | ❌       | ❌     | ✅    |  ❌   | ✅   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| pt        | Portuguese                          | ❌       | ❌     | ✅    |  ✅   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| ro        | Romanian; Moldavian; Moldovan       | ❌       | ❌     | ❌    |  ❌   | ✅   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| ru        | Russian                             | ✅       | ❌     | ✅    |  ✅   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| sk        | Slovak                              | ❌       | ❌     | ❌    |  ✅   | ✅   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| sl        | Slovenian                           | ❌       | ❌     | ❌    |  ✅   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| sv        | Swedish                             | ❌       | ❌     | ❌    |  ✅   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| sw        | Swahili                             | ❌       | ❌     | ✅    |  ✅   | ❌   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| ta        | Tamil                               | ✅       | ❌     | ❌    |  ❌   | ❌   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| th        | Thai                                | ✅       | ❌     | ❌    |  ❌   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
-| tr        | Turkish                             | ✅       | ❌     | ✅    |  ✅   | ✅   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| uk        | Ukrainian                           | ✅       | ❌     | ✅    |  ✅   | ✅   | ❌       | ❌     | ❌     | ❌    | ❌        |
-| vi        | Vietnamese                          | ❌       | ❌     | ✅    |  ❌   | ✅   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| el        | Greek, Modern (1453–)               | 🌙       | ❌     | 🌙    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| en        | English                             | ✅       | ✅     | ✅    |  ✅   | ✅   | ✅       | ✅     | ✅     | ✅    | ✅        |
+| eo        | Esperanto                           | 🌙       | ❌     | ❌    |  🌙   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| es        | Spanish; Castilian                  | ✅       | ❌     | 🌙    |  🌙   | 🌙   | ❌       | ❌     | ❌     | 🌙    | ❌        |
+| fa        | Persian                             | 🌙       | ❌     | ✅    |  🌙   | 🌙   | ❌       | ❌     | ❌     | 🌙    | ❌        |
+| fi        | Finnish                             | 🌙       | ❌     | ❌    |  ❌   | ❌   | ❌       | ❌     | ❌     | ✅    | ❌        |
+| fr        | French                              | ✅       | ❌     | 🌙    |  ❌   | 🌙   | ❌       | ❌     | ❌     | ✅    | ❌        |
+| he        | Hebrew                              | ❌       | ❌     | ❌    |  ✅   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| hi        | Hindi                               | ✅       | ❌     | ❌    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| hr        | Croatian                            | ❌       | ❌     | ❌    |  ❌   | ❌   | ❌       | ❌     | ❌     | 🌙    | ❌        |
+| hu        | Hungarian                           | ✅       | ❌     | ✅    |  ❌   | ❌   | ❌       | ❌     | ❌     | ✅    | ❌        |
+| id        | Indonesian                          | 🌙       | ❌     | 🌙    |  ❌   | ❌   | ❌       | ❌     | ❌     | 🌙    | ❌        |
+| it        | Italian                             | 🌙       | ❌     | 🌙    |  ✅   | ❌   | ❌       | ❌     | ❌     | 🌙    | ❌        |
+| ja        | Japanese                            | 🌙       | ❌     | ✅    |  🌙   | 🌙   | ❌       | ❌     | ❌     | ✅    | ❌        |
+| ko        | Korean                              | ❌       | ❌     | ✅    |  ❌   | ❌   | ❌       | ❌     | ❌     | ✅    | ❌        |
+| lv        | Latvian                             | ❌       | ❌     | 🌙    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| ms        | Malay                               | ❌       | ❌     | ❌    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| nb        | Bokmål, Norwegian; Norwegian Bokmål | ❌       | ❌     | ❌    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| nl        | Dutch; Flemish                      | ✅       | ❌     | ✅    |  🌙   | 🌙   | ❌       | ✅     | ❌     | 🌙    | ❌        |
+| pl        | Polish                              | ❌       | ❌     | ✅    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| pt        | Portuguese                          | ✅       | ❌     | 🌙    |  ❌   | 🌙   | ❌       | ❌     | ❌     | 🌙    | ❌        |
+| ro        | Romanian; Moldavian; Moldovan       | ❌       | ❌     | ❌    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| ru        | Russian                             | 🌙       | ❌     | 🌙    |  🌙   | ❌   | ❌       | ❌     | ❌     | 🌙    | ❌        |
+| sk        | Slovak                              | ❌       | ❌     | ❌    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| sl        | Slovenian                           | ❌       | ❌     | ❌    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| sv        | Swedish                             | ✅       | ❌     | ❌    |  ❌   | 🌙   | ❌       | ❌     | ❌     | ✅    | ❌        |
+| sw        | Swahili                             | 🌙       | ❌     | 🌙    |  🌙   | ❌   | ❌       | ❌     | ❌     | 🌙    | ❌        |
+| ta        | Tamil                               | 🌙       | ❌     | ❌    |  ❌   | ❌   | ❌       | ❌     | ❌     | 🌙    | ❌        |
+| th        | Thai                                | ✅       | ❌     | ❌    |  ❌   | ❌   | ❌       | ❌     | ❌     | 🌙    | ❌        |
+| tr        | Turkish                             | 🌙       | ❌     | 🌙    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| uk        | Ukrainian                           | 🌙       | ❌     | 🌙    |  🌙   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
+| vi        | Vietnamese                          | ❌       | ❌     | ✅    |  ❌   | ❌   | ❌       | ❌     | ❌     | ❌    | ❌        |
 | zh        | Chinese                             | ✅       | ❌     | ✅    |  ✅   | ✅   | ❌       | ❌     | ❌     | ✅    | ❌        |
 
 ## Automatic Content Translations

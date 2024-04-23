@@ -63,17 +63,17 @@ It is not sufficient to have the strings be localized but the client does not us
 
 ## Automatic Content Translations
 
-| Client     | Supported |
-|------------|-----------|
-| Amethyst   | ✅        |
-| Coracle    | ❌        |
-| Damus      | ✅        |
-| Nos        | ❌        |
-| noStrudel  | ❌        |
-| Nostur     | ❌        |
-| Primal     | ❌        |
-| Snort      | ✅        |
-| Yaki Honne | ❌        |
+| Client     | Supported | Backing Translation Providers                                   |
+|------------|-----------|-----------------------------------------------------------------|
+| Amethyst   | ✅        | Google ML Kit (offline)                                         |
+| Coracle    | ❌        |                                                                 |
+| Damus      | ✅        | Damus Purple, DeepL, NoKYCTranslate, Nostr.wine, LibreTranslate |
+| Nos        | ❌        |                                                                 |
+| noStrudel  | ❌        |                                                                 |
+| Nostur     | ❌        |                                                                 |
+| Primal     | ❌        |                                                                 |
+| Snort      | ✅        | LibreTranslate                                                  |
+| Yaki Honne | ❌        |                                                                 |
 
 ## Project Links
 
